@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo h2{
+    font-size: 1.5rem;
+    
+}
+.navlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navlinks ul li {
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 1.2rem;
+        list-style: none;
+        font-size: 1.3rem;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks ul li a:hover {
+    color: rgb(0, 224, 224)
+}
+.cart li{
+        list-style: none;
+}
+.cart img{
+    max-width: 2rem;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+}
+.cart p{
+    font-size: 1.3rem;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: -0.8rem;
+    right: 1.3rem;
+    
+}
